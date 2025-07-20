@@ -1,0 +1,264 @@
+[
+  {
+    "huruf": "A",
+    "audio": "assets/audio/a.mp3",
+    "gambar": [
+      "assets/img/ayam.png",
+      "assets/img/apel.png",
+      "assets/img/anggur.png"
+    ]
+  },
+  {
+    "huruf": "B",
+    "audio": "assets/audio/b.mp3",
+    "gambar": [
+      "assets/img/bola.png",
+      "assets/img/baju.png",
+      "assets/img/buku.png"
+    ]
+  },
+  {
+    "huruf": "C",
+    "audio": "assets/audio/c.mp3",
+    "gambar": ["assets/img/celana.png", "assets/img/cokelat.png"]
+  },
+  {
+    "huruf": "D",
+    "audio": "assets/audio/d.mp3",
+    "gambar": [
+      "assets/img/donat.png",
+      "assets/img/durian.png",
+      "assets/img/daging.png"
+    ]
+  },
+  {
+    "huruf": "E",
+    "audio": "assets/audio/e.mp3",
+    "gambar": ["assets/img/es krim.png", "assets/img/ember.png"]
+  },
+  {
+    "huruf": "F",
+    "audio": "assets/audio/f.mp3",
+    "gambar": ["assets/img/.png"]
+  },
+  {
+    "huruf": "G",
+    "audio": "assets/audio/g.mp3",
+    "gambar": [
+      "assets/img/g.png",
+      "assets/img/g2.png",
+      "assets/img/g3.png",
+      "assets/img/g4.png",
+      "assets/img/g5.png"
+    ]
+  },
+  {
+    "huruf": "H",
+    "audio": "assets/audio/h.mp3",
+    "gambar": [
+      "assets/img/h.png",
+      "assets/img/h2.png",
+      "assets/img/h3.png",
+      "assets/img/h4.png",
+      "assets/img/h5.png"
+    ]
+  },
+  {
+    "huruf": "I",
+    "audio": "assets/audio/i.mp3",
+    "gambar": [
+      "assets/img/i.png",
+      "assets/img/i2.png",
+      "assets/img/i3.png",
+      "assets/img/i4.png",
+      "assets/img/i5.png"
+    ]
+  },
+  {
+    "huruf": "J",
+    "audio": "assets/audio/j.mp3",
+    "gambar": [
+      "assets/img/j.png",
+      "assets/img/j2.png",
+      "assets/img/j3.png",
+      "assets/img/j4.png",
+      "assets/img/j5.png"
+    ]
+  },
+  {
+    "huruf": "K",
+    "audio": "assets/audio/k.mp3",
+    "gambar": [
+      "assets/img/k.png",
+      "assets/img/k2.png",
+      "assets/img/k3.png",
+      "assets/img/k4.png",
+      "assets/img/k5.png"
+    ]
+  },
+  {
+    "huruf": "L",
+    "audio": "assets/audio/l.mp3",
+    "gambar": [
+      "assets/img/l.png",
+      "assets/img/l2.png",
+      "assets/img/l3.png",
+      "assets/img/l4.png",
+      "assets/img/l5.png"
+    ]
+  },
+  {
+    "huruf": "M",
+    "audio": "assets/audio/m.mp3",
+    "gambar": [
+      "assets/img/m.png",
+      "assets/img/m2.png",
+      "assets/img/m3.png",
+      "assets/img/m4.png",
+      "assets/img/m5.png"
+    ]
+  },
+  {
+    "huruf": "N",
+    "audio": "assets/audio/n.mp3",
+    "gambar": [
+      "assets/img/n.png",
+      "assets/img/n2.png",
+      "assets/img/n3.png",
+      "assets/img/n4.png",
+      "assets/img/n5.png"
+    ]
+  },
+  {
+    "huruf": "O",
+    "audio": "assets/audio/o.mp3",
+    "gambar": [
+      "assets/img/o.png",
+      "assets/img/o2.png",
+      "assets/img/o3.png",
+      "assets/img/o4.png",
+      "assets/img/o5.png"
+    ]
+  },
+  {
+    "huruf": "P",
+    "audio": "assets/audio/p.mp3",
+    "gambar": [
+      "assets/img/p.png",
+      "assets/img/p2.png",
+      "assets/img/p3.png",
+      "assets/img/p4.png",
+      "assets/img/p5.png"
+    ]
+  },
+  {
+    "huruf": "Q",
+    "audio": "assets/audio/q.mp3",
+    "gambar": [
+      "assets/img/q.png",
+      "assets/img/q2.png",
+      "assets/img/q3.png",
+      "assets/img/q4.png",
+      "assets/img/q5.png"
+    ]
+  },
+  {
+    "huruf": "R",
+    "audio": "assets/audio/r.mp3",
+    "gambar": [
+      "assets/img/r.png",
+      "assets/img/r2.png",
+      "assets/img/r3.png",
+      "assets/img/r4.png",
+      "assets/img/r5.png"
+    ]
+  },
+  {
+    "huruf": "S",
+    "audio": "assets/audio/s.mp3",
+    "gambar": [
+      "assets/img/s.png",
+      "assets/img/s2.png",
+      "assets/img/s3.png",
+      "assets/img/s4.png",
+      "assets/img/s5.png"
+    ]
+  },
+  {
+    "huruf": "T",
+    "audio": "assets/audio/t.mp3",
+    "gambar": [
+      "assets/img/t.png",
+      "assets/img/t2.png",
+      "assets/img/t3.png",
+      "assets/img/t4.png",
+      "assets/img/t5.png"
+    ]
+  },
+  {
+    "huruf": "U",
+    "audio": "assets/audio/u.mp3",
+    "gambar": [
+      "assets/img/u.png",
+      "assets/img/u2.png",
+      "assets/img/u3.png",
+      "assets/img/u4.png",
+      "assets/img/u5.png"
+    ]
+  },
+  {
+    "huruf": "V",
+    "audio": "assets/audio/v.mp3",
+    "gambar": [
+      "assets/img/v.png",
+      "assets/img/v2.png",
+      "assets/img/v3.png",
+      "assets/img/v4.png",
+      "assets/img/v5.png"
+    ]
+  },
+  {
+    "huruf": "W",
+    "audio": "assets/audio/w.mp3",
+    "gambar": [
+      "assets/img/w.png",
+      "assets/img/w2.png",
+      "assets/img/w3.png",
+      "assets/img/w4.png",
+      "assets/img/w5.png"
+    ]
+  },
+  {
+    "huruf": "X",
+    "audio": "assets/audio/x.mp3",
+    "gambar": [
+      "assets/img/x.png",
+      "assets/img/x2.png",
+      "assets/img/x3.png",
+      "assets/img/x4.png",
+      "assets/img/x5.png"
+    ]
+  },
+  {
+    "huruf": "Y",
+    "audio": "assets/audio/y.mp3",
+    "gambar": [
+      "assets/img/y.png",
+      "assets/img/y2.png",
+      "assets/img/y3.png",
+      "assets/img/y4.png",
+      "assets/img/y5.png"
+    ]
+  },
+  {
+    "huruf": "Z",
+    "audio": "assets/audio/z.mp3",
+    "gambar": [
+      "assets/img/z.png",
+      "assets/img/z2.png",
+      "assets/img/z3.png",
+      "assets/img/z4.png",
+      "assets/img/z5.png"
+    ]
+  }
+]
