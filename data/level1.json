@@ -39,39 +39,33 @@
   {
     "huruf": "F",
     "audio": "assets/audio/f.mp3",
-    "gambar": ["assets/img/.png"]
+    "gambar": ["assets/img/fanta.png"]
   },
   {
     "huruf": "G",
     "audio": "assets/audio/g.mp3",
     "gambar": [
-      "assets/img/g.png",
-      "assets/img/g2.png",
-      "assets/img/g3.png",
-      "assets/img/g4.png",
-      "assets/img/g5.png"
+      "assets/img/gajah.png",
+      "assets/img/gitar.png",
+      "assets/img/gula.png"
     ]
   },
   {
     "huruf": "H",
     "audio": "assets/audio/h.mp3",
     "gambar": [
-      "assets/img/h.png",
-      "assets/img/h2.png",
-      "assets/img/h3.png",
-      "assets/img/h4.png",
-      "assets/img/h5.png"
+      "assets/img/harimau.png",
+      "assets/img/helikopter.png",
+      "assets/img/handphone.png"
     ]
   },
   {
     "huruf": "I",
     "audio": "assets/audio/i.mp3",
     "gambar": [
-      "assets/img/i.png",
-      "assets/img/i2.png",
-      "assets/img/i3.png",
-      "assets/img/i4.png",
-      "assets/img/i5.png"
+      "assets/img/ikan.png",
+      "assets/img/indomie.png",
+      "assets/img/indonesia.png"
     ]
   },
   {
