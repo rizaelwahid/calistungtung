@@ -78,12 +78,19 @@ export class Level1 {
         style="background-color: ${randomColor}">
         <i class="fa-solid fa-forward"></i>
       </button>
+
+      <!-- Tombol Random -->
+      <button id="randomBtn" class="absolute bottom-4 z-10 shadow-md rounded-full w-32 h-12 text-xl font-bold hover:opacity-80 flex items-center justify-center"
+        style="background-color: ${randomColor}">
+        Acak
+      </button>
     </div>
   `;
 
     // Event
     wrapper.querySelector("#nextBtn").onclick = () => this.next();
     wrapper.querySelector("#backBtn").onclick = () => this.back();
+    wrapper.querySelector("#randomBtn").onclick = () => this.random();
     wrapper.querySelectorAll(".play-audio").forEach((el) => {
       el.onclick = () => playAudio(item.audio);
     });
@@ -104,6 +111,12 @@ export class Level1 {
     if (this.index < 0) {
       this.index = this.data.length - 1;
     }
+    this.renderHuruf(this.index);
+  }
+
+  random() {
+    if (!this.data || this.data.length === 0) return;
+    this.index = Math.floor(Math.random() * this.data.length);
     this.renderHuruf(this.index);
   }
 }
