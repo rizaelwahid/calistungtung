@@ -27,6 +27,9 @@ export class Level1 {
       "#A0C4FF",
       "#BDB2FF",
       "#FFC6FF",
+      "#FFB6C1",
+      "#FF99CC",
+      "#FFC0CB",
     ];
     const randomColor =
       pastelColors[Math.floor(Math.random() * pastelColors.length)];

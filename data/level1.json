@@ -62,197 +62,127 @@
   {
     "huruf": "I",
     "audio": "assets/audio/i.mp3",
-    "gambar": [
-      "assets/img/ikan.png",
-      "assets/img/indomie.png",
-      "assets/img/indonesia.png"
-    ]
+    "gambar": ["assets/img/ikan.png", "assets/img/indonesia.png"]
   },
   {
     "huruf": "J",
     "audio": "assets/audio/j.mp3",
     "gambar": [
-      "assets/img/j.png",
-      "assets/img/j2.png",
-      "assets/img/j3.png",
-      "assets/img/j4.png",
-      "assets/img/j5.png"
+      "assets/img/jeruk.png",
+      "assets/img/jam.png",
+      "assets/img/jagung.png"
     ]
   },
   {
     "huruf": "K",
     "audio": "assets/audio/k.mp3",
     "gambar": [
-      "assets/img/k.png",
-      "assets/img/k2.png",
-      "assets/img/k3.png",
-      "assets/img/k4.png",
-      "assets/img/k5.png"
+      "assets/img/kepiting.png",
+      "assets/img/kucing.png",
+      "assets/img/kunci.png"
     ]
   },
   {
     "huruf": "L",
     "audio": "assets/audio/l.mp3",
-    "gambar": [
-      "assets/img/l.png",
-      "assets/img/l2.png",
-      "assets/img/l3.png",
-      "assets/img/l4.png",
-      "assets/img/l5.png"
-    ]
+    "gambar": ["assets/img/lampu_lalu_lintas.png", "assets/img/laptop.png"]
   },
   {
     "huruf": "M",
     "audio": "assets/audio/m.mp3",
-    "gambar": [
-      "assets/img/m.png",
-      "assets/img/m2.png",
-      "assets/img/m3.png",
-      "assets/img/m4.png",
-      "assets/img/m5.png"
-    ]
+    "gambar": ["assets/img/mobil.png", "assets/img/motor.png"]
   },
   {
     "huruf": "N",
     "audio": "assets/audio/n.mp3",
     "gambar": [
-      "assets/img/n.png",
-      "assets/img/n2.png",
-      "assets/img/n3.png",
-      "assets/img/n4.png",
-      "assets/img/n5.png"
+      "assets/img/nanas.png",
+      "assets/img/nasi.png",
+      "assets/img/naga.png"
     ]
   },
   {
     "huruf": "O",
     "audio": "assets/audio/o.mp3",
-    "gambar": [
-      "assets/img/o.png",
-      "assets/img/o2.png",
-      "assets/img/o3.png",
-      "assets/img/o4.png",
-      "assets/img/o5.png"
-    ]
+    "gambar": ["assets/img/obat.png", "assets/img/obeng.png"]
   },
   {
     "huruf": "P",
     "audio": "assets/audio/p.mp3",
     "gambar": [
-      "assets/img/p.png",
-      "assets/img/p2.png",
-      "assets/img/p3.png",
-      "assets/img/p4.png",
-      "assets/img/p5.png"
+      "assets/img/panda.png",
+      "assets/img/pisang.png",
+      "assets/img/pohon.png",
+      "assets/img/pensil.png"
     ]
   },
   {
     "huruf": "Q",
     "audio": "assets/audio/q.mp3",
-    "gambar": [
-      "assets/img/q.png",
-      "assets/img/q2.png",
-      "assets/img/q3.png",
-      "assets/img/q4.png",
-      "assets/img/q5.png"
-    ]
+    "gambar": ["assets/img/quran.png"]
   },
   {
     "huruf": "R",
     "audio": "assets/audio/r.mp3",
     "gambar": [
-      "assets/img/r.png",
-      "assets/img/r2.png",
-      "assets/img/r3.png",
-      "assets/img/r4.png",
-      "assets/img/r5.png"
+      "assets/img/roda.png",
+      "assets/img/roti.png",
+      "assets/img/rambut.png",
+      "assets/img/rumput.png",
+      "assets/img/rusa.png"
     ]
   },
   {
     "huruf": "S",
     "audio": "assets/audio/s.mp3",
     "gambar": [
-      "assets/img/s.png",
-      "assets/img/s2.png",
-      "assets/img/s3.png",
-      "assets/img/s4.png",
-      "assets/img/s5.png"
+      "assets/img/sapi.png",
+      "assets/img/sikatgigi.png",
+      "assets/img/sisir.png",
+      "assets/img/sandal.png"
     ]
   },
   {
     "huruf": "T",
     "audio": "assets/audio/t.mp3",
     "gambar": [
-      "assets/img/t.png",
-      "assets/img/t2.png",
-      "assets/img/t3.png",
-      "assets/img/t4.png",
-      "assets/img/t5.png"
+      "assets/img/telur.png",
+      "assets/img/tas.png",
+      "assets/img/tikus.png"
     ]
   },
   {
     "huruf": "U",
     "audio": "assets/audio/u.mp3",
     "gambar": [
-      "assets/img/u.png",
-      "assets/img/u2.png",
-      "assets/img/u3.png",
-      "assets/img/u4.png",
-      "assets/img/u5.png"
+      "assets/img/uang.png",
+      "assets/img/ular.png",
+      "assets/img/umbi.png"
     ]
   },
   {
     "huruf": "V",
     "audio": "assets/audio/v.mp3",
-    "gambar": [
-      "assets/img/v.png",
-      "assets/img/v2.png",
-      "assets/img/v3.png",
-      "assets/img/v4.png",
-      "assets/img/v5.png"
-    ]
+    "gambar": ["assets/img/virus.png"]
   },
   {
     "huruf": "W",
     "audio": "assets/audio/w.mp3",
-    "gambar": [
-      "assets/img/w.png",
-      "assets/img/w2.png",
-      "assets/img/w3.png",
-      "assets/img/w4.png",
-      "assets/img/w5.png"
-    ]
+    "gambar": ["assets/img/warna.png"]
   },
   {
     "huruf": "X",
     "audio": "assets/audio/x.mp3",
-    "gambar": [
-      "assets/img/x.png",
-      "assets/img/x2.png",
-      "assets/img/x3.png",
-      "assets/img/x4.png",
-      "assets/img/x5.png"
-    ]
+    "gambar": ["assets/img/x.png"]
   },
   {
     "huruf": "Y",
     "audio": "assets/audio/y.mp3",
-    "gambar": [
-      "assets/img/y.png",
-      "assets/img/y2.png",
-      "assets/img/y3.png",
-      "assets/img/y4.png",
-      "assets/img/y5.png"
-    ]
+    "gambar": ["assets/img/yoyo.png"]
   },
   {
     "huruf": "Z",
     "audio": "assets/audio/z.mp3",
-    "gambar": [
-      "assets/img/z.png",
-      "assets/img/z2.png",
-      "assets/img/z3.png",
-      "assets/img/z4.png",
-      "assets/img/z5.png"
-    ]
+    "gambar": ["assets/img/zebra.png"]
   }
 ]
