@@ -18,7 +18,7 @@ export class Level1 {
     const item = this.data[index];
     const wrapper = document.getElementById("level1-container");
 
-    const pastelColors = [
+    const colorList = [
       "#FFADAD",
       "#FFD6A5",
       "#FDFFB6",
@@ -30,9 +30,13 @@ export class Level1 {
       "#FFB6C1",
       "#FF99CC",
       "#FFC0CB",
+      "#EEF1DA",
+      "#D5E5D5",
+      "#AAB99A",
+      "#A7727D",
+      "#D1D1D1",
     ];
-    const randomColor =
-      pastelColors[Math.floor(Math.random() * pastelColors.length)];
+    const randomColor = colorList[Math.floor(Math.random() * colorList.length)];
 
     const randomImage = Array.isArray(item.gambar)
       ? item.gambar[Math.floor(Math.random() * item.gambar.length)]
