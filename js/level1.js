@@ -82,7 +82,7 @@ export class Level1 {
       <!-- Tombol Random -->
       <button id="randomBtn" class="absolute bottom-4 z-10 shadow-md rounded-full w-32 h-12 text-xl font-bold hover:opacity-80 flex items-center justify-center"
         style="background-color: ${randomColor}">
-        Acak
+        <i class="fa-solid fa-random"></i>
       </button>
     </div>
   `;
