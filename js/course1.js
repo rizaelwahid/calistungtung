@@ -1,6 +1,6 @@
 import { loadJSON, playAudio } from "./utils.js";
 
-export class Level1 {
+export class course1 {
   constructor() {
     this.index = 0;
     this.data = [];
@@ -8,15 +8,15 @@ export class Level1 {
 
   async init() {
     const container = document.getElementById("app");
-    container.innerHTML = '<div id="level1-container" class="relative"></div>';
+    container.innerHTML = '<div id="course1-container" class="relative"></div>';
 
-    this.data = await loadJSON("data/level1.json");
+    this.data = await loadJSON("data/course1.json");
     this.renderHuruf(this.index);
   }
 
   renderHuruf(index) {
     const item = this.data[index];
-    const wrapper = document.getElementById("level1-container");
+    const wrapper = document.getElementById("course1-container");
 
     const colorList = [
       "#FFADAD",
@@ -63,8 +63,8 @@ export class Level1 {
         <!-- Gambar -->
         <div class="row-span-2 flex items-center justify-center bg-white bg-opacity-60 rounded-md">
           <img src="${randomImage}" alt="${
-      item.huruf
-    }" class="w-48 h-48 object-contain" />
+            item.huruf
+          }" class="w-48 h-48 object-contain" />
         </div>
 
         <!-- Huruf kecil -->
