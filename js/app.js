@@ -15,6 +15,9 @@ class App {
   }
 
   start(course = 0) {
+    // Simpan course aktif
+    localStorage.setItem("currentCourse", course);
+
     // Bersihkan course sebelumnya
     this.currentCourse?.destroy?.();
     this.currentCourse = null;
@@ -51,7 +54,8 @@ const app = new App();
 window.app = app;
 
 // Course pertama saat aplikasi dibuka
-app.start();
+const lastCourse = Number(localStorage.getItem("currentCourse") ?? 0);
+app.start(lastCourse);
 
 window.addEventListener("load", () => {
   const fabButton = document.getElementById("fabButton");
