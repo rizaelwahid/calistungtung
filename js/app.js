@@ -1,33 +1,57 @@
-import { course1 } from "./course1.js";
+// app.js
+
+import { Course1 } from "./course1.js";
+// import { Course2 } from "./course2.js";
+
+// Daftar course yang tersedia
+const courses = {
+  1: Course1,
+  // 2: Course2,
+};
 
 class App {
   constructor() {
-    this.currentcourse = null;
+    this.currentCourse = null;
   }
 
-  start(course = 1) {
-    // Bersihkan course sebelumnya jika ada
-    if (this.currentcourse?.destroy) {
-      this.currentcourse.destroy();
+  start(course = 0) {
+    // Bersihkan course sebelumnya
+    this.currentCourse?.destroy?.();
+    this.currentCourse = null;
+
+    // Bersihkan container
+    const app = document.getElementById("app");
+    app.innerHTML = "";
+
+    // Beranda
+    if (course === 0) {
+      app.innerHTML = `
+      <div class="flex items-center justify-center h-screen">
+        <h1 class="text-4xl font-bold">
+          Selamat Datang 👋
+        </h1>
+      </div>
+    `;
+      return;
     }
 
-    switch (course) {
-      case 1:
-        this.currentcourse = new course1();
-        break;
-      case 2:
-        this.currentcourse = new course2();
-        break;
+    const Course = courses[course];
+
+    if (!Course) {
+      console.warn(`Course ${course} belum tersedia.`);
+      return;
     }
 
-    this.currentcourse.init();
+    this.currentCourse = new Course();
+    this.currentCourse.init();
   }
 }
 
 const app = new App();
-app.start(1);
-
 window.app = app;
+
+// Course pertama saat aplikasi dibuka
+app.start();
 
 window.addEventListener("load", () => {
   const fabButton = document.getElementById("fabButton");
@@ -35,35 +59,41 @@ window.addEventListener("load", () => {
 
   let menuOpen = false;
 
-  fabButton.onclick = () => {
-    menuOpen = !menuOpen;
+  function openMenu() {
+    fabMenu.classList.remove(
+      "opacity-0",
+      "pointer-events-none",
+      "-translate-x-4",
+    );
 
-    if (menuOpen) {
-      fabMenu.classList.remove(
-        "opacity-0",
-        "pointer-events-none",
-        "-translate-x-4",
-      );
-      fabMenu.classList.add("opacity-100", "translate-x-0");
-      fabButton.innerHTML = '<i class="fas fa-xmark text-xl"></i>';
-    } else {
-      fabMenu.classList.add(
-        "opacity-0",
-        "pointer-events-none",
-        "-translate-x-4",
-      );
-      fabMenu.classList.remove("opacity-100", "translate-x-0");
-      fabButton.innerHTML = '<i class="fas fa-bars text-xl"></i>';
-    }
-  };
+    fabMenu.classList.add("opacity-100", "translate-x-0");
 
-  document.querySelectorAll(".menu-item").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const level = Number(btn.dataset.level);
+    fabButton.innerHTML = '<i class="fas fa-xmark text-xl"></i>';
 
-      window.app.start(level);
+    menuOpen = true;
+  }
 
-      fabButton.click(); // tutup menu
+  function closeMenu() {
+    fabMenu.classList.add("opacity-0", "pointer-events-none", "-translate-x-4");
+
+    fabMenu.classList.remove("opacity-100", "translate-x-0");
+
+    fabButton.innerHTML = '<i class="fas fa-bars text-xl"></i>';
+
+    menuOpen = false;
+  }
+
+  fabButton.addEventListener("click", () => {
+    menuOpen ? closeMenu() : openMenu();
+  });
+
+  document.querySelectorAll(".menu-item").forEach((button) => {
+    button.addEventListener("click", () => {
+      const course = Number(button.dataset.course);
+
+      app.start(course);
+
+      closeMenu();
     });
   });
 });

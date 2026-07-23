@@ -1,6 +1,6 @@
 import { loadJSON, playAudio } from "./utils.js";
 
-export class course1 {
+export class Course1 {
   constructor() {
     this.index = 0;
     this.data = [];
@@ -12,6 +12,11 @@ export class course1 {
 
     this.data = await loadJSON("data/course1.json");
     this.renderHuruf(this.index);
+  }
+
+  destroy() {
+    const container = document.getElementById("app");
+    container.innerHTML = "";
   }
 
   renderHuruf(index) {
