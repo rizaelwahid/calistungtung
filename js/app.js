@@ -88,7 +88,11 @@ window.addEventListener("load", () => {
   }
 
   fabButton.addEventListener("click", () => {
-    menuOpen ? closeMenu() : openMenu();
+    if (menuOpen) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
   });
 
   document.querySelectorAll(".menu-item").forEach((button) => {

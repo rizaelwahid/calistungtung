@@ -17,56 +17,53 @@
     <div id="app"></div>
 
     <!-- Floating Menu -->
-    <div class="fixed bottom-6 left-4 z-50 flex items-center gap-3">
-      <!-- FAB -->
+    <div
+      id="fabMenu"
+      class="fixed left-[5.5rem] bottom-4 z-[100] max-w-[calc(100vw-6.5rem)] flex flex-wrap gap-2 opacity-0 pointer-events-none -translate-x-4 transition-all duration-300"
+    >
       <button
-        id="fabButton"
-        class="w-16 h-16 rounded-full bg-red-300 text-white shadow-xl hover:bg-red-500 transition-all duration-300 flex items-center justify-center"
+        class="menu-item bg-white shadow-lg rounded-full px-5 py-3 whitespace-nowrap hover:bg-yellow-200"
+        data-course="0"
       >
-        <i class="fas fa-bars text-xl"></i>
+        Beranda
       </button>
 
-      <!-- Menu -->
-      <div
-        id="fabMenu"
-        class="flex flex-row gap-3 opacity-0 pointer-events-none -translate-x-4 transition-all duration-300"
+      <button
+        class="menu-item bg-white shadow-lg rounded-full px-5 py-3 whitespace-nowrap hover:bg-pink-200"
+        data-course="1"
       >
-        <button
-          class="menu-item bg-white shadow-lg rounded-full px-5 py-3 hover:bg-yellow-200"
-          data-course="0"
-        >
-          Beranda
-        </button>
+        Mengenal Huruf
+      </button>
 
-        <button
-          class="menu-item bg-white shadow-lg rounded-full px-5 py-3 hover:bg-pink-200"
-          data-course="1"
-        >
-          Mengenal Huruf
-        </button>
+      <button
+        class="menu-item bg-white shadow-lg rounded-full px-5 py-3 whitespace-nowrap hover:bg-red-200"
+        data-course="2"
+      >
+        Mengenal Angka
+      </button>
 
-        <button
-          class="menu-item bg-white shadow-lg rounded-full px-5 py-3 hover:bg-red-200"
-          data-course="2"
-        >
-          Mengenal Angka
-        </button>
+      <button
+        class="menu-item bg-white shadow-lg rounded-full px-5 py-3 whitespace-nowrap hover:bg-green-200"
+        data-course="3"
+      >
+        Mengeja
+      </button>
 
-        <button
-          class="menu-item bg-white shadow-lg rounded-full px-5 py-3 hover:bg-green-200"
-          data-course="3"
-        >
-          Mengeja
-        </button>
-
-        <button
-          class="menu-item bg-white shadow-lg rounded-full px-5 py-3 hover:bg-blue-200"
-          data-course="4"
-        >
-          Berhitung
-        </button>
-      </div>
+      <button
+        class="menu-item bg-white shadow-lg rounded-full px-5 py-3 whitespace-nowrap hover:bg-blue-200"
+        data-course="4"
+      >
+        Berhitung
+      </button>
     </div>
+
+    <!-- FAB -->
+    <button
+      id="fabButton"
+      class="fixed left-4 bottom-4 z-[101] w-16 h-16 shrink-0 rounded-full bg-red-300 text-white shadow-xl hover:bg-red-500 transition-all duration-300 flex items-center justify-center"
+    >
+      <i class="fas fa-bars text-xl"></i>
+    </button>
 
     <script type="module" src="js/app.js"></script>
   </body>
