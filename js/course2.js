@@ -297,27 +297,6 @@ export class Course2 {
             ${level.syllables.length}
           </div>
 
-
-          <!-- =================================================
-               RANDOM
-               ================================================= -->
-
-          <button
-            id="randomBtn"
-            class="mt-3
-                   shadow-md
-                   rounded-full
-                   w-32 h-12
-                   text-lg
-                   hover:opacity-80
-                   flex items-center justify-center
-                   shrink-0"
-            style="background-color: white"
-            aria-label="Suku kata acak"
-          >
-            <i class="fa-solid fa-shuffle"></i>
-          </button>
-
         </div>
 
 
@@ -339,6 +318,35 @@ export class Course2 {
         >
           <i class="fa-solid fa-forward"></i>
         </button>
+      
+        <!-- =================================================
+             BACK NEXT
+             ================================================= -->
+
+        <button
+          id="backBtn"
+          class="absolute left-4 z-10
+                 shadow-md
+                 rounded-full
+                 w-12 h-12
+                 text-xl
+                 hover:opacity-80
+                 flex items-center justify-center"
+          style="background-color: ${randomColor}"
+          aria-label="Suku kata sebelumnya"
+        >
+          <i class="fa-solid fa-backward"></i>
+        </button>
+
+           <!-- =================================================
+               RANDOM
+               ================================================= -->
+
+          <!-- Tombol Random -->
+      <button id="randomBtn" class="absolute bottom-4 z-10 shadow-md rounded-full w-32 h-12 text-xl font-bold hover:opacity-80 flex items-center justify-center"
+        style="background-color: ${randomColor}">
+        <i class="fa-solid fa-random"></i>
+      </button>
 
       </div>
     `;
@@ -346,6 +354,10 @@ export class Course2 {
     // =======================================================
     // EVENT
     // =======================================================
+
+    wrapper.querySelector("#backBtn").onclick = () => {
+      this.back();
+    };
 
     wrapper.querySelector("#nextBtn").onclick = () => {
       this.next();
