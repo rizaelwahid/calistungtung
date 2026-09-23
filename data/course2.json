@@ -1,0 +1,159 @@
+{
+  "course": {
+    "id": 2,
+    "title": "Membaca Suku Kata",
+    "description": "Belajar membaca suku kata sederhana"
+  },
+
+  "levels": [
+    {
+      "id": 1,
+      "title": "Huruf Vokal",
+      "letter": "-",
+      "syllables": ["a", "i", "u", "e", "o"]
+    },
+    {
+      "id": 2,
+      "title": "Suku Kata B",
+      "letter": "b",
+      "syllables": ["ba", "bi", "bu", "be", "bo"]
+    },
+    {
+      "id": 3,
+      "title": "Suku Kata C",
+      "letter": "c",
+      "syllables": ["ca", "ci", "cu", "ce", "co"]
+    },
+    {
+      "id": 4,
+      "title": "Suku Kata D",
+      "letter": "d",
+      "syllables": ["da", "di", "du", "de", "do"]
+    },
+    {
+      "id": 5,
+      "title": "Suku Kata F",
+      "letter": "f",
+      "syllables": ["fa", "fi", "fu", "fe", "fo"]
+    },
+    {
+      "id": 6,
+      "title": "Suku Kata G",
+      "letter": "g",
+      "syllables": ["ga", "gi", "gu", "ge", "go"]
+    },
+    {
+      "id": 7,
+      "title": "Suku Kata H",
+      "letter": "h",
+      "syllables": ["ha", "hi", "hu", "he", "ho"]
+    },
+    {
+      "id": 8,
+      "title": "Suku Kata J",
+      "letter": "j",
+      "syllables": ["ja", "ji", "ju", "je", "jo"]
+    },
+    {
+      "id": 9,
+      "title": "Suku Kata K",
+      "letter": "k",
+      "syllables": ["ka", "ki", "ku", "ke", "ko"]
+    },
+    {
+      "id": 10,
+      "title": "Suku Kata L",
+      "letter": "l",
+      "syllables": ["la", "li", "lu", "le", "lo"]
+    },
+    {
+      "id": 11,
+      "title": "Suku Kata M",
+      "letter": "m",
+      "syllables": ["ma", "mi", "mu", "me", "mo"]
+    },
+    {
+      "id": 12,
+      "title": "Suku Kata N",
+      "letter": "n",
+      "syllables": ["na", "ni", "nu", "ne", "no"]
+    },
+    {
+      "id": 13,
+      "title": "Suku Kata P",
+      "letter": "p",
+      "syllables": ["pa", "pi", "pu", "pe", "po"]
+    },
+    {
+      "id": 14,
+      "title": "Suku Kata Q",
+      "letter": "q",
+      "syllables": ["qa", "qi", "qu", "qe", "qo"]
+    },
+    {
+      "id": 15,
+      "title": "Suku Kata R",
+      "letter": "r",
+      "syllables": ["ra", "ri", "ru", "re", "ro"]
+    },
+    {
+      "id": 16,
+      "title": "Suku Kata S",
+      "letter": "s",
+      "syllables": ["sa", "si", "su", "se", "so"]
+    },
+    {
+      "id": 17,
+      "title": "Suku Kata T",
+      "letter": "t",
+      "syllables": ["ta", "ti", "tu", "te", "to"]
+    },
+    {
+      "id": 18,
+      "title": "Suku Kata V",
+      "letter": "v",
+      "syllables": ["va", "vi", "vu", "ve", "vo"]
+    },
+    {
+      "id": 19,
+      "title": "Suku Kata W",
+      "letter": "w",
+      "syllables": ["wa", "wi", "wu", "we", "wo"]
+    },
+    {
+      "id": 20,
+      "title": "Suku Kata Y",
+      "letter": "y",
+      "syllables": ["ya", "yi", "yu", "ye", "yo"]
+    },
+    {
+      "id": 21,
+      "title": "Suku Kata Z",
+      "letter": "z",
+      "syllables": ["za", "zi", "zu", "ze", "zo"]
+    },
+    {
+      "id": 22,
+      "title": "Suku Kata Ng",
+      "letter": "ng",
+      "syllables": [
+        "nga",
+        "ngi",
+        "ngu",
+        "nge",
+        "ngo",
+        "ang",
+        "ing",
+        "ung",
+        "eng",
+        "ong"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Suku Kata Ny",
+      "letter": "ny",
+      "syllables": ["nya", "nyi", "nyu", "nye", "nyo"]
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 // app.js
 
 import { Course1 } from "./course1.js";
-// import { Course2 } from "./course2.js";
+import { Course2 } from "./course2.js";
 
 // Daftar course yang tersedia
 const courses = {
   1: Course1,
-  // 2: Course2,
+  2: Course2,
 };
 
 class App {
